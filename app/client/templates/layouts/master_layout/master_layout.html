@@ -1,0 +1,16 @@
+<template name="MasterLayout">
+    {{> Navigation}}
+    <div class="container">
+        <div class="row">
+            {{#if currentUser}}
+                <div class="span2">
+                    {{> Sidebar}}
+                </div>
+            {{/if}}
+
+            <div class="span10">
+                {{> Home}}
+            </div>
+        </div>
+    </div>
+</template>

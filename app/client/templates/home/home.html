@@ -1,0 +1,11 @@
+<template name="Home">
+    <div class="well well-large">
+        <label for="posttext">Update Status</label>
+        <input placeholder="Whats on your mind ?" class="input-xxlarge posttext" type="text" name="posttext"
+               id="posttext"/>
+    </div>
+    <ul id="postList" class="unstyled">
+        {{> Post}}
+       
+    </ul>
+</template>
