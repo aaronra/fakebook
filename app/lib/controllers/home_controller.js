@@ -6,5 +6,8 @@ HomeController = RouteController.extend({
 
   action: function() {
     this.render('Home');
+  },
+  action: function() {
+    this.render('Messages');
   }
 });

@@ -5,14 +5,8 @@ Router.configure({
 });
 
 Router.route('/', {
-  name: 'splash',
-  controller: 'HomeController',
-  action: 'action',
-  where: 'client'
+  name: 'splash'
 });
 Router.route('/messages', {
-  name: 'messages',
-  controller: 'HomeController',
-  action: 'action',
-  where: 'client'
+  name: 'messages'
 });
