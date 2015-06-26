@@ -9,5 +9,8 @@ HomeController = RouteController.extend({
   },
   action: function() {
     this.render('Messages');
+  },
+  action: function() {
+    this.render('Splash');
   }
 });

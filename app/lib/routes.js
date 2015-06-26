@@ -10,3 +10,6 @@ Router.route('/', {
 Router.route('/messages', {
   name: 'messages'
 });
+Router.route('/home', {
+  name: 'home'
+});
